@@ -198,5 +198,23 @@ footer nav a:hover {
 	background-color:#FFFFFF;
 	}
 	
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding: 5%
+    }
+    
+    nav {
+        
+        width: 100%; 
+        
+    }
+    #content {
+        
+        clear: left; 
+        margin-left; 5%;
+        width: 100%%;
+
+}
 
 	
