@@ -89,6 +89,7 @@ li {
 	}
 			
 h1 {
+    
 	color:#E8950C;
     text-decoration:none;
 	margin:0 5px 0 0;
@@ -201,7 +202,11 @@ footer nav a:hover {
 @media screen and (max-width: 600px) {
     
     body {
-        padding: 3%
+        padding: 3%;
+   
+    }
+    h1 {
+        clear: both; width: 100%;
     }
     h1, h2 { 
         text-align:center; 
@@ -232,9 +237,8 @@ footer nav a:hover {
     #content {
         
         clear: left; 
-        margin-left; 0;
-        width: 100%%;
-
-}
+        margin-left: 0;
+        width: 100%;
+    }
 
 	
