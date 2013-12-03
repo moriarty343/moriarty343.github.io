@@ -22,7 +22,9 @@ body {
 	}
 	
 header {
-		width:400px;
+		width:95%;
+        margin-left: .5%;
+        margin-right: .5%; 
         text-decoration:none;    
         height: 45px; 
 		border:5px #163573;
@@ -36,7 +38,7 @@ header a {
         text-decoration:none
 }
 	
-article {width:800px;
+article {width:85%;
 		background-color:#FFFFFF;
 		font-family:"Georgia", Helvetica, Arial, sans-serif;
 		font-size:13px;
@@ -70,7 +72,7 @@ aside {
 	}
 	
 footer {
-	width:800px;
+	width:95%;
 	text-align:center;
 	font-size:12px;
 	background-color:#163573;
@@ -218,7 +220,7 @@ footer nav a:hover {
     
     nav {
         border: 0;
-        width: 100%; 
+        width: 45%; 
 
         
     }
@@ -237,7 +239,7 @@ footer nav a:hover {
     }
     
     
-    #content {
+    article {
         
         clear: left; 
         margin-left: 0;
