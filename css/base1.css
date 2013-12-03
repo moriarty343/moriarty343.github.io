@@ -13,7 +13,7 @@ body {
 	}
 	
 #wrapper {
-	width:960px;
+	width:400px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#163573;
@@ -22,7 +22,7 @@ body {
 	}
 	
 header {
-		width:940px;
+		width:400px;
         text-decoration:none;    
         height: 45px; 
 		border:5px #163573;
@@ -36,7 +36,7 @@ header a {
         text-decoration:none
 }
 	
-article {width:760px;
+article {width:800px;
 		background-color:#FFFFFF;
 		font-family:"Georgia", Helvetica, Arial, sans-serif;
 		font-size:13px;
@@ -70,7 +70,7 @@ aside {
 	}
 	
 footer {
-	width:960px;
+	width:800px;
 	text-align:center;
 	font-size:12px;
 	background-color:#163573;
@@ -202,8 +202,11 @@ footer nav a:hover {
 @media screen and (max-width: 600px) {
     
     body {
-        padding: 3%;
+        padding: 5%;
    
+    }
+    nav{ 
+        width: 100%;
     }
     h1 {
         clear: both; width: 100%;
