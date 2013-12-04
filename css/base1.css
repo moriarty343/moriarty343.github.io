@@ -8,7 +8,7 @@ body {
     margin-top:15px;
 	background-color:#FFFFFF;
 	font-family:georgia, helvetica, arial sans-serif;
-	font-size:13px;
+	font-size:16px;
 	color:#FFFFFF;
 	}
 	
@@ -23,8 +23,8 @@ body {
 	
 header {
 		width:95%;
-        margin-left: .5%;
-        margin-right: .5%; 
+        margin-left: 25px;
+        margin-right: 100px%; 
         text-decoration:none;    
         height: 45px; 
 		border:5px #163573;
@@ -41,7 +41,7 @@ header a {
 article {width:85%;
 		background-color:#FFFFFF;
 		font-family:"Georgia", Helvetica, Arial, sans-serif;
-		font-size:13px;
+		font-size:16px;
 		color:#163573;
 		margin-left:160px;
 		margin-right:5px;
@@ -51,14 +51,16 @@ article {width:85%;
 		}
 
 article ul {margin-top:0px;
-		}
+            width: 60%; 
+}
+
 		
 article h2 {margin:25px 0 5px 0;
 		}
 			
 	
 nav {
-	width:150px;
+	width:140px;
     color: #0BD6FF;
 	margin-top:10px;
 	font-size:20px;
@@ -73,6 +75,8 @@ aside {
 	
 footer {
 	width:95%;
+    margin-left: 55px; 
+    margin-right:5px; 
 	text-align:center;
 	font-size:12px;
 	background-color:#163573;
@@ -111,14 +115,20 @@ h2 a {
 	
 p {
 	margin-bottom:5px;
+    width: 65%; 
 	}
 	
 
 figcaption {
 	font-family:"Georgia", Helvetica, Arial, sans-serif;
-	font-size:10px;
-	text-align:center;
+	font-size:13px;
+    color:#E8950C;
+    display:table; 
+	
 	}
+img {
+    text-align:justify
+}
 		
 
 .left {
@@ -179,7 +189,13 @@ footer nav {
 	}
 	
 footer p {
-	font-size: 10px; color:#35D4A4;
+	display: inherit ;
+	font-size: 12px;
+	text-align:center;
+	color:#35D4A4;   
+	background-color:#163573;
+	position:relative;
+ 
 	}
 	
 footer nav a:link {
@@ -201,49 +217,6 @@ footer nav a:hover {
 	background-color:#FFFFFF;
 	}
 	
-@media screen and (max-width: 600px) {
-    
-    body {
-        padding: 5%;
-   
-    }
-    nav{ 
-        width: 100%;
-    }
-    h1 {
-        clear: both; width: 100%;
-    }
-    h1, h2 { 
-        text-align:center; 
-    
-    }
-    
-    nav {
-        border: 0;
-        width: 45%; 
 
-        
-    }
-    nav ul {
-        list-style-type: none; 
-        padding-left: 0; 
-        text-align:center; 
-        
-    
-    }
-    nav li {
-        
-        display: inline; 
-        margin-right: 10px;
-        text-align: center; 
-    }
-    
-    
-    article {
-        
-        clear: left; 
-        margin-left: 0;
-        width: 100%;
-    }
 
 	
